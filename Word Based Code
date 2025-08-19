@@ -1,0 +1,7 @@
+Logic for Train Gate Control System
+IF (Train Approaching = TRUE)
+  THEN Lower Gate
+IF (Vehicle on Tracks = TRUE)
+  THEN Lower Gate
+IF (Train Approaching = FALSE) AND (Vehicle on Tracks = FALSE)
+  THEN Raise Gate
